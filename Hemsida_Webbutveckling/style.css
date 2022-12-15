@@ -4,7 +4,7 @@
     padding: 20px;
     padding-right: 35%;
     padding-left: 5%;
-    background-color: #256767;
+    background-color: #950740;
     color: #CAFAFE;
     padding-bottom: 80px;
     margin-left: 3.95%;
@@ -16,7 +16,7 @@
     font-size: 25px;
     padding: 20px;
     padding-right: 5%;
-    background-color: #FC4445;
+    background-color: #C3073F;
     color: #102828;
     margin-right: 3.95%;
 }
@@ -27,29 +27,28 @@
 }
 
 body {
-    background-image: url("Simple Shiny.svg");
+    background-image: url("bakgrund.svg");
 }
 
 .nav {
     position: absolute;
     margin-top: 17%;
     float: left;
-    background-color: #FC4445;
+    background-color: #950740;
     margin-left: 3.95%;
     padding: 20px, 15px;
     padding-right: 150px;
 }
 
 .active {
-    background-color: #e82f2f;
-    color: white;
+    background-color: #7e0737;
 }
 
 .links {
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     text-decoration: none;
-    color: #102828;
+    color: #CAFAFE;
     padding-left: 45px;
     padding-right: 45px;
 }
@@ -62,4 +61,13 @@ body {
 .links:hover {
     background-color: #e13c3c;
     color: #CAFAFE;
+}
+
+.introparagraph {
+    float: left;
+    background-color: #5F2232;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 3.95%;
 }
