@@ -1,0 +1,31 @@
+.maintitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    padding: 20px;
+    padding-right: 40%;
+    padding-left: 5%;
+    background-color: #256767;
+    color: #CAFAFE;
+    padding-bottom: 80px;
+    margin-left: 3.95%;
+}
+
+.socials {
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    padding-right: 5%;
+    background-color: #FC4445;
+    color: #102828;
+    margin-right: 3.95%;
+}
+
+.box_style {
+    float: left;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #3FEEE6;
+}
