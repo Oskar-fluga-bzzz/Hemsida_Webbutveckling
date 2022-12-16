@@ -2,9 +2,9 @@
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
     padding: 20px;
-    padding-right: 35%;
+    padding-right: 42%;
     padding-left: 5%;
-    background-color: #950740;
+    background-color: #1E4258;
     color: #CAFAFE;
     padding-bottom: 80px;
     margin-left: 3.95%;
@@ -16,7 +16,7 @@
     font-size: 25px;
     padding: 20px;
     padding-right: 5%;
-    background-color: #C3073F;
+    background-color: #2D5F5D;
     color: #102828;
     margin-right: 3.95%;
 }
@@ -34,14 +34,15 @@ body {
     position: absolute;
     margin-top: 17%;
     float: left;
-    background-color: #950740;
+    background-color: #494B68;
     margin-left: 3.95%;
     padding: 20px, 15px;
     padding-right: 150px;
+    border-radius: 2px;
 }
 
 .active {
-    background-color: #7e0737;
+    background-color: #1b3837;
 }
 
 .links {
@@ -59,15 +60,19 @@ body {
 }
 
 .links:hover {
-    background-color: #e13c3c;
+    background-color: #244a49;
     color: #CAFAFE;
 }
 
-.introparagraph {
+.paragraphstyle {
     float: left;
-    background-color: #5F2232;
+    background-color: #011a32;
     margin-top: 40px;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 2px;
     font-size: 20px;
     margin-left: 3.95%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #CAFAFE;
+    margin-right: 465px;
 }
