@@ -64,7 +64,7 @@ body {
     color: #CAFAFE;
 }
 
-.paragraphstyle {
+.pstyle {
     float: left;
     background-color: #011a32;
     margin-top: 40px;
@@ -74,5 +74,10 @@ body {
     margin-left: 3.95%;
     font-family: 'Source Sans Pro', sans-serif;
     color: #CAFAFE;
-    margin-right: 450px;
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
 }
