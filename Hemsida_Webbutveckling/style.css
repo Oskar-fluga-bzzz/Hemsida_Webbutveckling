@@ -4,8 +4,8 @@
     padding: 20px;
     padding-right: 42%;
     padding-left: 5%;
-    background-color: #1E4258;
-    color: #CAFAFE;
+    background-color: var(--colour-1);
+    color: var(--colour-2);
     padding-bottom: 80px;
     margin-left: 3.95%;
 }
@@ -16,8 +16,8 @@
     font-size: 25px;
     padding: 20px;
     padding-right: 5%;
-    background-color: #2D5F5D;
-    color: #102828;
+    background-color: var(--colour-3);
+    color: var(--colour-4);
     margin-right: 3.95%;
 }
 
@@ -27,14 +27,14 @@
 }
 
 body {
-    background-image: url("bakgrund.svg");
+    background-color: #720030;
 }
 
 .nav {
     position: absolute;
     margin-top: 220px;
     float: left;
-    background-color: #494B68;
+    background-color: var(--colour-5);
     margin-left: 3.95%;
     padding: 20px, 15px;
     padding-right: 150px;
@@ -42,42 +42,64 @@ body {
 }
 
 .active {
-    background-color: #1b3837;
+    background-color: var(--colour-6);
 }
 
 .links {
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     text-decoration: none;
-    color: #CAFAFE;
+    color: var(--colour-9);
     padding-left: 45px;
     padding-right: 45px;
 }
 
 .medialinks {
-    color: #102828;
+    color: var(--colour-4);
     text-decoration: none;
 }
 
 .links:hover {
-    background-color: #244a49;
-    color: #CAFAFE;
+    background-color: var(--colour-8);
+    color: var(--colour-2);
+}
+
+.medialinks:hover {
+    color: var(--colour-9);
 }
 
 .pstyle {
     float: left;
-    background-color: #011a32;
+    background-color: var(--colour-7);
     margin-top: 40px;
     padding: 20px;
-    border-radius: 2px;
+    border-radius: 5px;
     font-size: 20px;
     margin-left: 3.95%;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #CAFAFE;
+    color: var(--colour-9);
     margin-right: 10px;
+}
+
+.utvecklarna {
+    max-width: 27.5%;
+    margin-right: 3.95%;
+    margin-left: 1%;
 }
 
 .flex {
     display: flex;
     align-items: flex-start;
+}
+
+:root {
+    --colour-1: #e3568c;
+    --colour-2: #56fcf9;
+    --colour-3: #e93479;
+    --colour-4: #102828;
+    --colour-5: #4900ff;
+    --colour-6: #1e0069;
+    --colour-7: #2b0096;
+    --colour-8: #290092;
+    --colour-9: #cafefe;
 }
