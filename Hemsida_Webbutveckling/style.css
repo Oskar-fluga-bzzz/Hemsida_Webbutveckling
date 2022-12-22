@@ -42,7 +42,7 @@ body {
     background-color: var(--colour-4);
     margin-left: 3.95%;
     padding: 20px, 25px;
-    padding-right: 415px;
+    padding-right: 32.8%;
     border-radius: 2px;
     border-style: double;
     border-color: magenta;
@@ -105,12 +105,9 @@ body {
     box-shadow: var(--colour-2) 2px 3px;
     font-size: 20px;
     text-shadow: magenta 0.5px 1px;
-}
-
-.pstyle:hover {
-    -webkit-animation: glow 3s ease-in-out infinite alternate;
-    -moz-animation: glow 3s ease-in-out infinite alternate;
-    animation: glow 3s ease-in-out infinite alternate;
+    -webkit-animation: glow 10s ease-in-out infinite alternate;
+    -moz-animation: glow 10s ease-in-out infinite alternate;
+    animation: glow 10s ease-in-out infinite alternate;
 }
 
 h2 {
@@ -144,7 +141,7 @@ h2 {
 
 @-webkit-keyframes glow {
     from {
-      box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #e60073, 0 0 8px #e60073, 0 0 10px #e60073, 0 0 12px #e60073, 0 0 14px #e60073;
+      box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #00dbe6, 0 0 8px #00e6e6, 0 0 10px #00e2e6, 0 0 12px #00c4e6, 0 0 14px #00e2e6;
     }
     to {
       box-shadow: 0 0 4px #fff, 0 0 6px #ff4da6, 0 0 8px #ff4da6, 0 0 10px #ff4da6, 0 0 12px #ff4da6, 0 0 14px #ff4da6, 0 0 16px #ff4da6;
