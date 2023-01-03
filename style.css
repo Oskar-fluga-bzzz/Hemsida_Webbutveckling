@@ -109,26 +109,6 @@ body {
     animation: glow 7s ease-in-out infinite alternate;
 }
 
-.pstyle_2 {
-    float: left;
-    background-color: var(--colour-6);
-    padding: 20px;
-    border-radius: 10px;
-    margin-left: 3.95%;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: var(--colour-8);
-    margin-right: 10px;
-    border-width: 2.7px;
-    border-color: magenta;
-    border-style: dotted;
-    box-shadow: var(--colour-2) 2px 3px;
-    font-size: 20px;
-    text-shadow: magenta 0.5px 1px;
-    -webkit-animation: glow 7s ease-in-out infinite alternate;
-    -moz-animation: glow 7s ease-in-out infinite alternate;
-    animation: glow 7s ease-in-out infinite alternate;
-}
-
 .merch {
     display: flex;
     align-items: flex-start;
@@ -176,7 +156,7 @@ h2 {
 
 .flex {
     display: flex;
-    align-items: flex-start;
+    flex-direction: row;
 }
 
 :root {
@@ -199,3 +179,54 @@ h2 {
       box-shadow: 0 0 4px #fff, 0 0 6px #ff4da6, 0 0 8px #ff4da6, 0 0 10px #ff4da6, 0 0 12px #ff4da6, 0 0 14px #ff4da6, 0 0 16px #ff4da6;
     }
   }
+
+
+@media only screen 
+and (min-device-width : 0px) 
+and (max-device-width : 768px) {
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pstyle {
+        min-width: 80%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .maintitle {
+        text-align: center;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+    .nav {
+        margin-left: 0px;
+        border-right-color: var(--colour-4);
+        width: 70%;
+        float: none;
+        text-align: center;
+    }
+    .smallbox {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .socials {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 80%;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: center;
+    }
+    .medialinks {
+        font-size: 30px;
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+}
