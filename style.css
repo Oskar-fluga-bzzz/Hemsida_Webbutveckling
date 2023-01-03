@@ -199,15 +199,3 @@ h2 {
       box-shadow: 0 0 4px #fff, 0 0 6px #ff4da6, 0 0 8px #ff4da6, 0 0 10px #ff4da6, 0 0 12px #ff4da6, 0 0 14px #ff4da6, 0 0 16px #ff4da6;
     }
   }
-
-  @media only screen and (max-width: 1000px) {
-    .merch {
-        flex-direction: column;
-    }
-    .merch_2 {
-        flex-direction: column;
-    }
-    .merch_items {
-        width: 90%;
-    }
-  }
