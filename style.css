@@ -4,7 +4,7 @@
     padding: 20px;
     width: 67.5vw;
     padding-left: 5%;
-    background-color: var(--colour-4);
+    background-color: var(--colour-6);
     color: var(--colour-2);
     margin-left: 3.95%;
     padding-bottom: 100px;
@@ -24,6 +24,7 @@
     margin-right: 3.95%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .box_style {
@@ -32,7 +33,7 @@
 }
 
 body {
-    background-image: url(sun.png);
+    background-color: var(--colour-4);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -52,7 +53,9 @@ body {
 }
 
 .active {
-    color: #264e4e;
+    background-color: var(--colour-6);
+    box-shadow: magenta 2px 2px 2px 2px;
+    border-radius: 2px;
 }
 
 .links {
@@ -165,7 +168,7 @@ h2 {
     --colour-3: #eb1b6b;
     --colour-4: rgb(5, 8, 23);
     --colour-5: #4900ff;
-    --colour-6: #1e0069;
+    --colour-6: #0d002d;
     --colour-7: #2b0096;
     --colour-8: #290092;
     --colour-9: #cafefe;
@@ -182,7 +185,7 @@ h2 {
 
 
 @media only screen 
-and (min-device-width : 0px) 
+and (min-device-width : 425px) 
 and (max-device-width : 768px) {
     .flex {
         flex-direction: column;
@@ -192,6 +195,7 @@ and (max-device-width : 768px) {
         min-width: 80%;
         margin-right: 0px;
         margin-left: 0px;
+        font-size: 40px;
     }
     .maintitle {
         text-align: center;
@@ -207,6 +211,66 @@ and (max-device-width : 768px) {
         width: 70%;
         float: none;
         text-align: center;
+    }
+    .smallbox {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .socials {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 80%;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: center;
+    }
+    .medialinks {
+        font-size: 30px;
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 0px) 
+and (max-device-width : 425px) {
+    .links {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pstyle {
+        min-width: 80%;
+        margin-right: 0px;
+        margin-left: 0px;
+        font-size: 50px;
+    }
+    .maintitle {
+        text-align: center;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        font-size: 80px;
+    }
+    .nav {
+        margin-left: 0px;
+        border-right-color: var(--colour-4);
+        width: 70%;
+        float: none;
+        text-align: center;
+        padding-right: 40px;
+        padding-left: 40px;
     }
     .smallbox {
         margin-right: 0px;
