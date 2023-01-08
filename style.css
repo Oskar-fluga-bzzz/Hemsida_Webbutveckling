@@ -20,7 +20,7 @@
     padding: 20px;
     width: 15vw;
     background-color: magenta;
-    color: var(--colour-4);
+    color: var(--colour-6);
     margin-right: 3.95%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -97,6 +97,7 @@ body {
     background-color: var(--colour-9);
     padding: 20px;
     border-radius: 10px;
+    align-items: center;
     margin-left: 3.95%;
     font-family: 'Source Sans Pro', sans-serif;
     color: var(--colour-8);
@@ -139,10 +140,18 @@ body {
 h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .smallbox {
-    max-width: 27.5%;
+    min-width: 27.5%;
+    margin-right: 3.95%;
+    margin-left: 1%;
+    min-height: 1000px;
+}
+
+.gbox {
+    max-width: 70%;
     margin-right: 3.95%;
     margin-left: 1%;
     min-height: 1000px;
@@ -150,11 +159,12 @@ h2 {
 
 .image{
     width: 70%;
-    margin:2%;
     border-color: var(--colour-2);
     border-width: 5px;
     border-radius: 10px;
     border-style: double;
+    margin: 10px 15%;
+    box-shadow: magenta 4px 4px;
 }
 
 .flex {
@@ -162,16 +172,22 @@ h2 {
     flex-direction: row;
 }
 
-:root {
-    --colour-1: #e3568c;
-    --colour-2: #56fcf9;
-    --colour-3: #eb1b6b;
-    --colour-4: rgb(5, 8, 23);
-    --colour-5: #4900ff;
-    --colour-6: #0d002d;
-    --colour-7: #2b0096;
-    --colour-8: #290092;
-    --colour-9: #cafefe;
+.descbox {
+    margin-bottom: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    color: var(--colour-9);
+    background-color: var(--colour-6);
+    border-color: #6C7D96;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: magenta 4px 4px;
+    text-shadow: #6C7D96;
 }
 
 @-webkit-keyframes glow {
@@ -195,7 +211,7 @@ and (max-device-width : 768px) {
         min-width: 80%;
         margin-right: 0px;
         margin-left: 0px;
-        font-size: 40px;
+        font-size: 30px;
     }
     .maintitle {
         text-align: center;
@@ -261,7 +277,7 @@ and (max-device-width : 425px) {
         margin-left: 0px;
         padding-left: 0px;
         margin-bottom: 0px;
-        font-size: 80px;
+        font-size: 70px;
     }
     .nav {
         margin-left: 0px;
@@ -293,4 +309,22 @@ and (max-device-width : 425px) {
         margin-right: 35px;
         margin-left: 35px;
     }
+    .merch {
+        flex-direction: column;
+    }
+    .merch_items {
+        width: 95%;
+    }
+}
+
+:root {
+    --colour-1: #e3568c;
+    --colour-2: #56fcf9;
+    --colour-3: #eb1b6b;
+    --colour-4: rgb(5, 8, 23);
+    --colour-5: #4900ff;
+    --colour-6: #0d002d;
+    --colour-7: #2b0096;
+    --colour-8: #290092;
+    --colour-9: #cafefe;
 }
