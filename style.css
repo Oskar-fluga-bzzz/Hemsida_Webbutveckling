@@ -145,7 +145,7 @@ h2 {
 
 .smallbox {
     min-width: 27.5%;
-    margin-right: 3.95%;
+    margin-right: 2.8%;
     margin-left: 1%;
     min-height: 1000px;
 }
@@ -165,6 +165,12 @@ h2 {
     border-style: double;
     margin: 10px 15%;
     box-shadow: magenta 4px 4px;
+}
+
+.drippington {
+    border-color: black;
+    width: 90%;
+    margin: 2%;
 }
 
 .flex {
@@ -188,6 +194,17 @@ h2 {
     border-radius: 10px;
     box-shadow: magenta 4px 4px;
     text-shadow: #6C7D96;
+}
+
+.goblin {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.shop {
+
 }
 
 @-webkit-keyframes glow {
@@ -287,6 +304,7 @@ and (max-device-width : 425px) {
         text-align: center;
         padding-right: 40px;
         padding-left: 40px;
+        background-color: var(--colour-6);
     }
     .smallbox {
         margin-right: 0px;
@@ -314,6 +332,9 @@ and (max-device-width : 425px) {
     }
     .merch_items {
         width: 95%;
+    }
+    .merch_2 {
+        flex-direction: column;
     }
 }
 
