@@ -113,28 +113,6 @@ body {
     animation: glow 7s ease-in-out infinite alternate;
 }
 
-.merch {
-    display: flex;
-    align-items: flex-start;
-    background-color: #a2f5f5;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: rgb(84, 255, 169);
-}
-
-.merch_2 {
-    display: flex;
-    align-items: flex-start;
-}
-
-.merch_items {
-    margin: 1.5%;
-    width: 30%;
-    border-color: rgb(84, 255, 169);
-    border-style: solid;
-    border-radius: 5px;
-}
-
 h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 20px;
@@ -143,7 +121,7 @@ h2 {
 
 .smallbox {
     min-width: 27.5%;
-    margin-right: 2.8%;
+    margin-right: 3.95%;
     margin-left: 1%;
     min-height: 1000px;
 }
@@ -165,16 +143,8 @@ h2 {
     box-shadow: magenta 4px 4px;
 }
 
-.drippington {
-    border-color: black;
-    width: 90%;
-    margin: 0px;
-    margin-left: 5%;
-    margin-top: 20px;
-}
-
-.merchpage {
-    margin: 20px 40px;
+.h1 {
+    text-align: center;
 }
 
 .flex {
@@ -200,10 +170,63 @@ h2 {
     text-shadow: #6C7D96;
 }
 
+.merch {
+    display: flex;
+    align-items: flex-start;
+    background-color: #a2f5f5;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(84, 255, 169);
+}
+
+.merch_2 {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: var(--colour-8);
+    text-shadow: magenta 1px 1px;
+}
+
+.merch_items {
+    margin: 1.5%;
+    width: 30%;
+    border-color: rgb(84, 255, 169);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.drippington {
+    border-color: var(--colour-2);
+    width: 90%;
+    margin: 0px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: magenta 2px 3px;
+}
+
 .shop {
     margin: 10px;
-    background-color: var(--colour-2);
+    background-color: var(--colour-9);
+    border-radius: 20px;
+    border-color: magenta;
+    border-style: dashed;
+    box-shadow: var(--colour-2) -2px -2px;
 }
+
+.merchpage {
+    margin: 20px 40px;
+    align-items: center;
+}
+
+.merchtitle {
+    text-align: center;
+    color: var(--colour-2);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-shadow: magenta 2px 2px;
+}
+
 
 @-webkit-keyframes glow {
     from {
@@ -213,7 +236,6 @@ h2 {
       box-shadow: 0 0 4px #fff, 0 0 6px #ff4da6, 0 0 8px #ff4da6, 0 0 10px #ff4da6, 0 0 12px #ff4da6, 0 0 14px #ff4da6, 0 0 16px #ff4da6;
     }
   }
-
 
 @media only screen 
 and (min-device-width : 425px) 
