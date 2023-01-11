@@ -10,7 +10,14 @@
         <script src="https://kit.fontawesome.com/8fe14dd225.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="flex goblin">
+        <div id="navbar">
+            <a href="EFR_main.html"> Home </a>
+            <a href="EFR_omoss.html"> Our Games </a>
+            <a class="active" href="EFR_merch.html"> Merch </a>
+            <a href="https://github.com/waqzrrqodi/tlpproj3ct" target="_blank"> Github </a>
+            <a href="https://www.forbes.com/sites/kellyphillipserb/2014/09/29/how-to-get-away-with-tax-fraud/" target="_blank"> Help </a>
+      </div>
+        <div class="flex">
             <h1 class="maintitle box_style"> Tax Fraud Studios </h1>
             <ul class="socials box_style">
                 <li> <i class="fa-brands fa-youtube"></i> <a class="medialinks" href="https://www.youtube.com/@TomasSverin" target="blank"> Youtube </a> </li>
@@ -27,12 +34,17 @@
             </div>
         </div>
         </div>
-        <div class="flex" style="margin-top: 280px;">
-            <div class="pstyle" style="max-width: 89%; background-color: var(--colour-6);">
+            <div class="merchpage">
                 <div class="merch_2">
-                    <div class="shop"><img src="Art/Merch_7.png" class="merch_items drippington"> </div>
-                    <div class="shop"><img src="Art/Merch_2.png" class="merch_items drippington"> </div>
-                    <div class="shop"><img src="Art/merch_5.png" class="merch_items drippington"> </div>
+                    <div class="shop"><img src="Art/Merch_7.png" class="merch_items drippington"> 
+                    <h1> 100kr </h1>
+                    </div>
+                    <div class="shop"><img src="Art/Merch_2.png" class="merch_items drippington"> 
+                    <h1> 200kr </h1>
+                    </div>
+                    <div class="shop"><img src="Art/merch_5.png" class="merch_items drippington"> 
+                    <h1> 300kr </h1>
+                    </div>
                 </div>
                 <div class="merch_2">
                     <div class="shop"><img src="Art/Merch_3.png" class="merch_items drippington"> </div>
@@ -45,6 +57,16 @@
                     <div class="shop"><img src="Art/merch_1.png" class="merch_items drippington"> </div>
                 </div>
             </div>
-        </div>
+        <script>
+            window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 270) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+        </script>
     </body>
 </html>

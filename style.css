@@ -125,8 +125,6 @@ body {
 .merch_2 {
     display: flex;
     align-items: flex-start;
-    background-color: var(--colour-8);
-    border-radius: 10px;
 }
 
 .merch_items {
@@ -170,7 +168,13 @@ h2 {
 .drippington {
     border-color: black;
     width: 90%;
-    margin: 2%;
+    margin: 0px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.merchpage {
+    margin: 20px 40px;
 }
 
 .flex {
@@ -196,15 +200,9 @@ h2 {
     text-shadow: #6C7D96;
 }
 
-.goblin {
-    overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-}
-
 .shop {
-
+    margin: 10px;
+    background-color: var(--colour-2);
 }
 
 @-webkit-keyframes glow {
@@ -349,3 +347,29 @@ and (max-device-width : 425px) {
     --colour-8: #290092;
     --colour-9: #cafefe;
 }
+
+#navbar {
+    background-color: var(--colour-6); 
+    position: fixed;
+    top: -50px; 
+    width: 100%;
+    transition: top 0.3s;
+    border-bottom-color: magenta;
+    border-bottom-style: double;
+  }
+  
+  #navbar a {
+    font-family: 'Press Start 2P', cursive;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    background-color: #140047;
+    color: var(--colour-2);
+    text-shadow: magenta 2px 2px;
+  }

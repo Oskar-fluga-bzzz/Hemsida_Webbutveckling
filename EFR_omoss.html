@@ -10,7 +10,14 @@
         <script src="https://kit.fontawesome.com/8fe14dd225.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="flex goblin">
+        <div id="navbar">
+            <a href="EFR_main.html"> Home </a>
+            <a class="active" href="EFR_omoss.html"> Our Games </a>
+            <a href="EFR_merch.html"> Merch </a>
+            <a href="https://github.com/waqzrrqodi/tlpproj3ct" target="_blank"> Github </a>
+            <a href="https://www.forbes.com/sites/kellyphillipserb/2014/09/29/how-to-get-away-with-tax-fraud/" target="_blank"> Help </a>
+      </div>
+        <div class="flex">
             <h1 class="maintitle box_style"> Tax Fraud Studios </h1>
             <ul class="socials box_style">
                 <li> <i class="fa-brands fa-youtube"></i> <a class="medialinks" href="https://www.youtube.com/@TomasSverin" target="blank"> Youtube </a> </li>
@@ -27,7 +34,7 @@
             </div>
         </div>
         </div>
-        <div class="flex" style="margin-top: 280px;">
+        <div class="flex">
             <div class="pstyle" style="min-width: 30%;">
                 <img src="Art/Concept_Art_8.jpg" class="image" style="width: 100%; margin: 0px; box-shadow: none;">
             </div>
@@ -55,5 +62,16 @@ Escape from Rimbo is, without a doubt, a masterpiece of open world gaming. Its a
                     The future of Tax Fraud Studios is bright indeed, and we can't wait to see what they bring us next. We expect Escape From Rimbo to be the beginning of something special, and we can only imagine what these talented developers will come up with next. This is one tax fraud you won't mind being a part of!</p>
             </div>
         </div>
+        <script>
+            window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 270) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+        </script>
     </body>
 </html>

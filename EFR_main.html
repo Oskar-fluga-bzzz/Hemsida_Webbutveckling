@@ -10,7 +10,14 @@
         <script src="https://kit.fontawesome.com/8fe14dd225.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="flex goblin">
+        <div id="navbar">
+                <a class="active" href="EFR_main.html"> Home </a>
+                <a href="EFR_omoss.html"> Our Games </a>
+                <a href="EFR_merch.html"> Merch </a>
+                <a href="https://github.com/waqzrrqodi/tlpproj3ct" target="_blank"> Github </a>
+                <a href="https://www.forbes.com/sites/kellyphillipserb/2014/09/29/how-to-get-away-with-tax-fraud/" target="_blank"> Help </a>
+          </div>
+        <div class="flex">
             <h1 class="maintitle box_style"> Tax Fraud Studios </h1>
             <ul class="socials box_style">
                 <li> <i class="fa-brands fa-youtube"></i> <a class="medialinks" href="https://www.youtube.com/@TomasSverin" target="blank"> Youtube </a> </li>
@@ -27,7 +34,7 @@
             </div>
         </div>
         </div>
-        <div class="flex" style="margin-top: 280px;">
+        <div class="flex">
             <div class="pstyle" style="max-width: 65%;">
                 <h2 style="text-align: center;"> Info </h2>
                 <p>
@@ -75,5 +82,16 @@ Escape From Rimbo is the perfect game for any fan of subversive, open-world adve
                 <div class="descbox"> <img src="Art/oskis.jpg" class="image"> <p style="margin:10px;">Oskar Hughes is widely regarded as one of the greatest programmers of all time. He is best known for creating the revolutionary next-gen porn games, which have revolutionized the industry. His games are widely praised for their innovative use of technology, stunning graphics, and engaging storylines. Not only has he revolutionized the gaming industry, but he has also created groundbreaking AI technology that is set to revolutionize the porn industry.</p> </div>
             </div>
         </div>
+        <script>
+            window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 270) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+        </script>
     </body>
 </html>
