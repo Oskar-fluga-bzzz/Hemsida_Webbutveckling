@@ -143,10 +143,6 @@ h2 {
     box-shadow: magenta 4px 4px;
 }
 
-.h1 {
-    text-align: center;
-}
-
 .flex {
     display: flex;
     flex-direction: row;
@@ -181,11 +177,28 @@ h2 {
 
 .merch_2 {
     display: flex;
-    align-items: flex-start;
+    align-items: flex;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: var(--colour-8);
     text-shadow: magenta 1px 1px;
+}
+
+.pricetag {
+    font-family: 'Oswald', sans-serif;
+    color: var(--colour-9);
+    text-shadow: magenta 1px 1px;
+    background-color: var(--colour-8);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: rgb(174, 0, 174) 2px 2px;
+}
+
+.pricetag:hover {
+    background-color: var(--colour-5);
+    color: white;
+    box-shadow: magenta 4px 4px;
 }
 
 .merch_items {
@@ -212,6 +225,7 @@ h2 {
     border-color: magenta;
     border-style: dashed;
     box-shadow: var(--colour-2) -2px -2px;
+    padding-bottom: 30px;
 }
 
 .merchpage {
@@ -285,6 +299,9 @@ and (max-device-width : 768px) {
         font-size: 30px;
         margin-right: 35px;
         margin-left: 35px;
+    }
+    #navbar a {
+        font-size: 25px;
     }
 }
 
@@ -362,6 +379,9 @@ and (max-device-width : 425px) {
     .shop {
         min-width: 100%;
     }
+    #navbar a{
+        font-size: 40px;
+    }
 }
 
 :root {
@@ -400,4 +420,16 @@ and (max-device-width : 425px) {
     background-color: #140047;
     color: var(--colour-2);
     text-shadow: magenta 2px 2px;
+  }
+
+
+  #trolley i {
+    position: relative;
+    right: 0;
+    transition: right ease 0.5s;
+    font-size: 30px;
+    color: var(--colour-6);
+  }
+  #trolley:hover i {
+    right: -15px;
   }
