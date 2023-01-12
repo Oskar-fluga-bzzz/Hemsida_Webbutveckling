@@ -356,6 +356,12 @@ and (max-device-width : 425px) {
     .merch_2 {
         flex-direction: column;
     }
+    .merchpage {
+        margin: 0px;
+    }
+    .shop {
+        min-width: 100%;
+    }
 }
 
 :root {
