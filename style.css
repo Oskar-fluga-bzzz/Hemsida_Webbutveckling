@@ -119,6 +119,28 @@ h2 {
     text-decoration: none;
 }
 
+h3 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: none;
+    margin-left: 40px;
+}
+
+.botbox {
+    width: 89.5%;
+    background-color: var(--colour-6);
+    color: var(--colour-9);
+    margin-bottom: 20px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.botul {
+    list-style: none; 
+    display:flex; 
+    flex-direction: row;
+}
+
 .smallbox {
     min-width: 27.5%;
     margin-right: 3.95%;
@@ -184,6 +206,15 @@ h2 {
     text-shadow: magenta 1px 1px;
 }
 
+.merch_3 {
+    display: flex;
+    align-items: flex-start;
+    background-color: #a2f5f5;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(84, 255, 169);
+}
+
 .pricetag {
     font-family: 'Oswald', sans-serif;
     color: var(--colour-9);
@@ -207,6 +238,15 @@ h2 {
     border-color: rgb(84, 255, 169);
     border-style: solid;
     border-radius: 5px;
+}
+
+.actors {
+    margin: 2.5%;
+    width: 20%;
+    border-radius: 15px;
+    -webkit-animation: glow 7s ease-in-out infinite alternate;
+    -moz-animation: glow 7s ease-in-out infinite alternate;
+    animation: glow 7s ease-in-out infinite alternate;
 }
 
 .drippington {
@@ -280,8 +320,8 @@ and (max-device-width : 768px) {
         text-align: center;
     }
     .smallbox {
-        margin-right: 0px;
-        margin-left: 0px;
+        margin-right: 10%;
+        margin-left: 10%;
         margin-top: 40px;
     }
     .socials {
@@ -309,10 +349,10 @@ and (max-device-width : 768px) {
 and (min-device-width : 0px) 
 and (max-device-width : 425px) {
     .links {
-        font-size: 25px;
+        font-size: 22px;
         margin-top: 30px;
         margin-bottom: 30px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
     .flex {
         flex-direction: column;
@@ -336,7 +376,7 @@ and (max-device-width : 425px) {
     .nav {
         margin-left: 0px;
         border-right-color: var(--colour-4);
-        width: 70%;
+        width: 100%;
         float: none;
         text-align: center;
         padding-right: 40px;
@@ -344,8 +384,8 @@ and (max-device-width : 425px) {
         background-color: var(--colour-6);
     }
     .smallbox {
-        margin-right: 0px;
-        margin-left: 0px;
+        margin-right: 10%;
+        margin-left: 10%;
         margin-top: 40px;
     }
     .socials {
@@ -382,6 +422,9 @@ and (max-device-width : 425px) {
     #navbar a{
         font-size: 40px;
     }
+    .merch_3 {
+        flex-direction: row;
+    }
 }
 
 :root {
@@ -399,7 +442,7 @@ and (max-device-width : 425px) {
 #navbar {
     background-color: var(--colour-6); 
     position: fixed;
-    top: -50px; 
+    top: -150px; 
     width: 100%;
     transition: top 0.3s;
     border-bottom-color: magenta;
