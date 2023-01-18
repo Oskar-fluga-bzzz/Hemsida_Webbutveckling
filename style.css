@@ -1,3 +1,5 @@
+
+
 .maintitle {
     font-family: 'Libre Barcode 128 Text', cursive;
     font-size: 80px;
@@ -311,7 +313,7 @@ h2 {
 }
 
 
-@-webkit-keyframes glow {
+@keyframes glow {
     from {
       box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #00dbe6, 0 0 8px #00e6e6, 0 0 10px #00e2e6, 0 0 12px #00c4e6, 0 0 14px #00e2e6;
     }
