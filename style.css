@@ -262,6 +262,22 @@ h2 {
     animation: glow 7s ease-in-out infinite alternate;
 }
 
+.donationbox {
+    text-align: center;
+    background-color: var(--colour-1);
+    color: white;
+    margin: 20px 70px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.submit {
+    margin: 40px 90px;
+    text-decoration: none;
+    position: absolute;
+}
+
 .drippington {
     border-color: var(--colour-2);
     width: 90%;
