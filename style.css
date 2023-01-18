@@ -113,17 +113,29 @@ body {
     animation: glow 7s ease-in-out infinite alternate;
 }
 
+.gobackidiot {
+    color: white;
+    margin-top: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
 h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 20px;
     text-decoration: none;
 }
 
-h3 {
+.botlinks {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     text-shadow: none;
-    margin-left: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #cafefe;
+}
+
+.botlinks:hover {
+    color: cyan;
 }
 
 .botbox {
@@ -224,6 +236,7 @@ h3 {
     border-radius: 5px;
     font-size: 30px;
     box-shadow: rgb(174, 0, 174) 2px 2px;
+    text-decoration: none;
 }
 
 .pricetag:hover {
@@ -444,7 +457,7 @@ and (max-device-width : 425px) {
     position: fixed;
     top: -150px; 
     width: 100%;
-    transition: top 0.3s;
+    transition: top 0.2s;
     border-bottom-color: magenta;
     border-bottom-style: double;
   }
@@ -475,21 +488,4 @@ and (max-device-width : 425px) {
   }
   #trolley:hover i {
     right: -15px;
-  }
-
-
-
-  ::-webkit-scrollbar {
-    width: 20px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px hsl(181, 35%, 54%);
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #67f2ff;
-    border-radius: 4px;
   }
